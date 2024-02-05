@@ -1,0 +1,160 @@
+body{
+    background-color: #2E354E;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    background-color:#364547;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main > .top{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    background-color: #CED4DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top> button> img{
+    width: 65%;
+    height: 70%;
+
+}
+.top input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    padding: 0.5rem;
+    border-radius: 50px;
+
+}
+
+.top button{
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+input:focus{
+    border: 2px solid gray;
+}
+
+.main> .middle{
+    position: relative;
+    background-color:#CED4DA;
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main> .middle h1{
+    font-size: 10rem;
+    font-weight: 600;
+    margin: 0;
+}
+ img{
+    width:30px;
+    margin: 5px 0;
+    filter: brightness(50%);
+}
+.middle> .smalldetails> span{
+    position: relative;
+    font-size: 1.2rem;
+    margin: 5px 10px;
+    top: -10px;
+}
+.smalldetails{
+    background-color:transparent;
+    position: absolute;
+    bottom : 20%;
+    right: 10%;
+}
+
+.main h3{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.main p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+
+.bottom{
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom > .day{
+    width: 5.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    height: 60%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:2rem;
+
+}
+ h5,  h2,  p{
+    margin: 0;
+}
+ h5{
+    font-size: 0.8rem;
+}
+ h2{
+    font-size: 2rem;
+}
+ .day p{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+

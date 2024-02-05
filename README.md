@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+<!-- Day 6 of #100DayChallenge 🚀 Today, I delved into the fascinating world of API fetching in React! 🌐🔍 Learned how to use the OpenWeatherMap API to get real-time weather data based on user input. 🌦️🔥 This involved handling asynchronous operations, fetching data, and updating the UI dynamically. 🔄💻 
+
+"Eager to craft dynamic apps using real-world data! 🚀
+
+ -->

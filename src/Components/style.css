@@ -1,0 +1,188 @@
+body {
+    /* background-color:#34495e; */
+    /* background: linear-gradient(to bottom right, #b8c6db, #8395a7);  */
+     /* background: linear-gradient(to bottom right, #b4bcc2, #788c8e); */
+
+    /* background-color: #8395a7; */
+    background:#87ceeb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    min-width:600px;
+    min-height: 400px;
+    background-color: #39424f; /* Lightened background color */
+    display: flex;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9; /* Good shade of white for background */
+    display: flex;
+    flex-direction: column;
+}
+
+.main > .top {
+    height: 8%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.top > .searchbox button > img {
+    width: 90%;
+    height: 100%;
+}
+
+.top> .searchbox input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #99a4b2;
+    padding: 0.5rem;
+    border-radius: 20px;
+    color: #2d3440;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.top> .searchbox button {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    background-color:transparent; /* Light gray for button */
+}
+
+input:focus {
+    border: 2px solid #99a4b2;
+}
+
+  .top h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .searchbox {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.main > .middle {
+    position: relative;
+    background-color: #f0f0f0; /* Good shade of white for background */
+    width: 100%;
+    height: 62%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main > .middle h1 {
+    font-size: 8rem;
+    font-weight: 600;
+    margin: 0;
+
+    color: #2d3440; 
+}
+.wicon{
+    width: 150px;
+}
+
+.detailimg {
+    width: 30px;
+    margin: 5px 0;
+    filter: brightness(50%);
+}
+
+.middle > .smalldetails > span {
+    position: relative;
+    font-size: 1.2rem;
+    margin: 5px 10px;
+    top: -10px;
+    color: #99a4b2; 
+}
+.smalldetails {
+    background-color: transparent;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+.main h3 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+    color: #2d3440;
+}
+
+.main p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #99a4b2;
+}
+
+.bottom {
+    height: 30%;
+    background-color: #f9f9f9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom > .day {
+    width: 5.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    height: 60%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+
+h5, h2, p {
+    margin: 0;
+}
+
+h5 {
+    padding-top: 3px;
+    font-size: 0.8rem;
+    color: #646464;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.day p {
+    font-size: 0.8rem;
+    color: #666666; 
+}
+
+
